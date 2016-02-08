@@ -1,0 +1,13 @@
+{
+  "name": "mongoose-redis-model",
+  "version": "1.0.0",
+  "description": "Cache Mongoose model properties in Redis",
+  "main": "index.js",
+  "keywords": [
+    "mongoose",
+    "redis",
+    "model"
+  ],
+  "author": "Austin Kelleher, a@alk.im",
+  "license": "MIT"
+}
