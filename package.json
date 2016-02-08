@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-redis-model",
+  "name": "moedis",
   "version": "1.0.0",
   "description": "Cache Mongoose model properties in Redis",
   "main": "index.js",
