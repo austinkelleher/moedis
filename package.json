@@ -1,6 +1,6 @@
 {
   "name": "moedis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cache Mongoose model properties in Redis",
   "main": "index.js",
   "keywords": [

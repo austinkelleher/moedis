@@ -39,14 +39,14 @@ var user = new User({
 });
 
 // Optional callback as third argument
-user.set('email', user.password, function(err, reply) {
+user.cacheSet('email', user.password, function(err, reply) {
     // reply contains the reply from Redis
     if (err) {
         console.log('Error setting property: ', err);
         return;
     }
 
-    user.get('email', function(err, reply) {
+    user.cacheGet('email', function(err, reply) {
         if (err) {
             console.log('Error retrieving property: ', err);
             return;

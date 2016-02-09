@@ -24,7 +24,7 @@ module.exports = function(options) {
     * @param value {string} - Value to set
     * @param callback
     */
-    schema.methods.set = function(prop, value, callback) {
+    schema.methods.cacheSet = function(prop, value, callback) {
         var entity = this[prop];
 
         if (!entity) {
@@ -47,7 +47,7 @@ module.exports = function(options) {
     * @param prop {string} - Mongoose schema property to fetch from cache
     * @param callback {function}
     */
-    schema.methods.get = function(prop, callback) {
+    schema.methods.cacheGet = function(prop, callback) {
         var entity = this[prop];
 
         if (!entity) {
